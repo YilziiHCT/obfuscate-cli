@@ -1,4 +1,4 @@
-<![CDATA[```text
+```text
  ██████╗ ██████╗ ███████╗██╗   ██╗███████╗ ██████╗ █████╗ ████████╗███████╗
 ██╔═══██╗██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔════╝
 ██║   ██║██████╔╝█████╗  ██║   ██║███████╗██║     ███████║   ██║   █████╗
@@ -290,4 +290,3 @@ Copyright © 2025 [YilziiHCT](https://github.com/YilziiHCT)
   <b>Made with ❤️ by <a href="https://github.com/YilziiHCT">YilziiHCT</a></b><br><br>
   ⭐ Star this repo if you find it useful!
 </p>
-]]>
