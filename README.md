@@ -1,6 +1,4 @@
-<![CDATA[<div align="center">
-
-```
+<![CDATA[```text
  ██████╗ ██████╗ ███████╗██╗   ██╗███████╗ ██████╗ █████╗ ████████╗███████╗
 ██╔═══██╗██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔════╝
 ██║   ██║██████╔╝█████╗  ██║   ██║███████╗██║     ███████║   ██║   █████╗
@@ -15,18 +13,22 @@
                            ╚═════╝╚══════╝╚═╝
 ```
 
-<img src="images/terminal.png" alt="ObfuscateCLI Terminal" width="650">
+<h1 align="center">ObfuscateCLI</h1>
 
-# ObfuscateCLI
+<p align="center">
+  <img src="images/terminal.png" alt="ObfuscateCLI Terminal" width="650">
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
-[![GitHub stars](https://img.shields.io/github/stars/YilziiHCT/obfuscate-cli?style=social)](https://github.com/YilziiHCT/obfuscate-cli)
-[![GitHub issues](https://img.shields.io/github/issues/YilziiHCT/obfuscate-cli)](https://github.com/YilziiHCT/obfuscate-cli/issues)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License: MIT"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18%2B-green.svg" alt="Node.js"></a>
+  <a href="https://github.com/YilziiHCT/obfuscate-cli"><img src="https://img.shields.io/github/stars/YilziiHCT/obfuscate-cli?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/YilziiHCT/obfuscate-cli/issues"><img src="https://img.shields.io/github/issues/YilziiHCT/obfuscate-cli" alt="GitHub issues"></a>
+</p>
 
-**A powerful, multi-language code obfuscation CLI tool with built-in security testing, entropy analysis, and comprehensive reporting.**
-
-</div>
+<p align="center">
+  <b>A powerful, multi-language code obfuscation CLI tool with built-in security testing, entropy analysis, and comprehensive reporting.</b>
+</p>
 
 ---
 
@@ -284,11 +286,8 @@ Copyright © 2025 [YilziiHCT](https://github.com/YilziiHCT)
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by [YilziiHCT](https://github.com/YilziiHCT)**
-
-⭐ Star this repo if you find it useful!
-
-</div>
+<p align="center">
+  <b>Made with ❤️ by <a href="https://github.com/YilziiHCT">YilziiHCT</a></b><br><br>
+  ⭐ Star this repo if you find it useful!
+</p>
 ]]>
