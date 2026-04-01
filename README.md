@@ -1,34 +1,34 @@
-```text
- ██████╗ ██████╗ ███████╗██╗   ██╗███████╗ ██████╗ █████╗ ████████╗███████╗
-██╔═══██╗██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔════╝
-██║   ██║██████╔╝█████╗  ██║   ██║███████╗██║     ███████║   ██║   █████╗
-██║   ██║██╔══██╗██╔══╝  ██║   ██║╚════██║██║     ██╔══██║   ██║   ██╔══╝
-╚██████╔╝██████╔╝██║     ╚██████╔╝███████║╚██████╗██║  ██║   ██║   ███████╗
- ╚═════╝ ╚═════╝ ╚═╝      ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
-                           ██████╗██╗     ██╗
-                          ██╔════╝██║     ██║
-                          ██║     ██║     ██║
-                          ██║     ██║     ██║
-                          ╚██████╗███████╗██║
-                           ╚═════╝╚══════╝╚═╝
-```
+<div align="center">
+<pre>
+  ██████╗ ██████╗ ███████╗██╗   ██╗███████╗ ██████╗ █████╗ ████████╗███████╗
+ ██╔═══██╗██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔════╝
+ ██║   ██║██████╔╝█████╗  ██║   ██║███████╗██║     ███████║   ██║   █████╗
+ ██║   ██║██╔══██╗██╔══╝  ██║   ██║╚════██║██║     ██╔══██║   ██║   ██╔══╝
+ ╚██████╔╝██████╔╝██║     ╚██████╔╝███████║╚██████╗██║  ██║   ██║   ███████╗
+  ╚═════╝ ╚═════╝ ╚═╝      ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+                            ██████╗██╗     ██╗
+                           ██╔════╝██║     ██║
+                           ██║     ██║     ██║
+                           ██║     ██║     ██║
+                           ╚██████╗███████╗██║
+                            ╚═════╝╚══════╝╚═╝
+</pre>
 
-<h1 align="center">ObfuscateCLI</h1>
+<h1>ObfuscateCLI</h1>
 
-<p align="center">
-  <img src="images/terminal.png" alt="ObfuscateCLI Terminal" width="650">
-</p>
+<img src="images/terminal.png" alt="ObfuscateCLI Terminal" width="650">
+<br><br>
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="License: MIT"></a>
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18%2B-green.svg" alt="Node.js"></a>
-  <a href="https://github.com/YilziiHCT/obfuscate-cli"><img src="https://img.shields.io/github/stars/YilziiHCT/obfuscate-cli?style=social" alt="GitHub stars"></a>
-  <a href="https://github.com/YilziiHCT/obfuscate-cli/issues"><img src="https://img.shields.io/github/issues/YilziiHCT/obfuscate-cli" alt="GitHub issues"></a>
-</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
+[![GitHub stars](https://img.shields.io/github/stars/YilziiHCT/obfuscate-cli?style=social)](https://github.com/YilziiHCT/obfuscate-cli)
+[![GitHub issues](https://img.shields.io/github/issues/YilziiHCT/obfuscate-cli)](https://github.com/YilziiHCT/obfuscate-cli/issues)
 
-<p align="center">
-  <b>A powerful, multi-language code obfuscation CLI tool with built-in security testing, entropy analysis, and comprehensive reporting.</b>
-</p>
+<br>
+<b>A powerful, multi-language code obfuscation CLI tool with built-in security testing, entropy analysis, and comprehensive reporting.</b>
+<br>
+
+</div>
 
 ---
 
@@ -69,6 +69,16 @@ The interactive terminal interface makes it easy to select files, choose protect
 
 ## 🚀 Installation
 
+### Automated Setup
+
+You can use the provided setup script for an automated installation:
+
+```bash
+curl -O https://raw.githubusercontent.com/YilziiHCT/obfuscate-cli/main/install.sh && bash install.sh
+```
+
+### Manual Setup
+
 ```bash
 # Clone the repository
 git clone https://github.com/YilziiHCT/obfuscate-cli.git
@@ -79,11 +89,20 @@ cd obfuscate-cli
 # Install dependencies
 npm install
 
-# Make CLI executable (Linux/macOS)
+# Make executables
 chmod +x bin/cli.js
+chmod +x optimize.sh
 
 # Run the tool
 npm start
+```
+
+### 🛠️ Optimization
+
+A built-in script is provided to help you optimize the environment, clean caches, and reinstall dependencies quickly if anything breaks:
+
+```bash
+bash optimize.sh
 ```
 
 ### Global Installation
