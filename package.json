@@ -1,0 +1,50 @@
+{
+  "name": "obfuscate-cli",
+  "version": "1.0.0",
+  "description": "A powerful multi-language code obfuscation CLI tool with built-in security testing, entropy analysis, and comprehensive reporting.",
+  "main": "src/index.js",
+  "bin": {
+    "obfuscate-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js"
+  },
+  "keywords": [
+    "obfuscation",
+    "obfuscator",
+    "javascript",
+    "php",
+    "html",
+    "css",
+    "python",
+    "security",
+    "cli",
+    "code-protection",
+    "minification",
+    "encryption"
+  ],
+  "author": "YilziiHCT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YilziiHCT/obfuscate-cli.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "boxen": "^5.1.2",
+    "ora": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "javascript-obfuscator": "^4.1.1",
+    "terser": "^5.31.0",
+    "html-minifier-terser": "^7.2.0",
+    "js-beautify": "^1.15.1",
+    "css-tree": "^2.3.1"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+obfuscated/*.js
+obfuscated/*.php
+obfuscated/*.html
+obfuscated/*.htm
+obfuscated/*.css
+obfuscated/*.py
+obfuscated/*.txt
+!obfuscated/.gitkeep
+input-files/*
+!input-files/.gitkeep
+.DS_Store
+Thumbs.db
+*.log
